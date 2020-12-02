@@ -39,4 +39,26 @@ Then, click "Ok", and close all windows. You have successfully added MingW to th
 
 ### Section 2: Running C program from command prompt
 
+The program can be run from any c compiler including online compiler. Assuming you have gcc and gpp already in ur pc, you should also be able to run the program by typing in the following into the command prompt.
+
+```    gcc -o outputFileName code.c && outputFileName
+```
+
 ### Section 3: Running and using the software for evaluation
+
+1. When the program successfully runs, it will prompt the user to enter the number of processes they wish to schedule. Note that the program allows users to key in two sets of workload. The prompt that the user will see at the start of the program is the prompt for the first set of workload.
+
+2. Users can then key in the arrival time and burst time of each process accordingly.
+
+3. After entering the workload of each process, the program will prompt the user to choose which scheduling algorithm they wish to use. They can choose either the FCFS algorithm, SJF algorithm or Round-Robin algorithm accordingly. There is also an option where users can choose to run all 3 algorithm for comparison.
+
+4. The program will then show a result analysis of the chosen scheduling algorithm. The analysis displays the arrival time, actual start time, the wait time and the turnaround time for each process. It will also total turnaround time and wait time, as well as the average turnaround time and wait time.
+
+..* *Note : There is a slight difference in the prompt if the users choose to run the Round Robin algorithm*
+..a After entering the workloads for each process, users will be prompted for a time quantum. The program will then also ask the users if they wish to include overhead. In this program the overhead for the Round-Robin is set as 1.
+..b Besides the usual result analysis, the program also displays a timeline of execution of the processes. The programs displays the remaining time of each process as they finish each round of execution until the reamining time is zero.
+
+5. After the first set of workload is done executing, the program will prompt for a second set of workload. The process for running the second set of workload is similar to the first. 
+
+
+  
