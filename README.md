@@ -40,9 +40,8 @@ Then, click "Ok", and close all windows. You have successfully added MingW to th
 ### Section 2: Running C program from command prompt
 
 The program can be run from any c compiler including online compiler. Assuming you have gcc and gpp already in ur pc, you should also be able to run the program by typing in the following into the command prompt.
-
-```    gcc -o outputFileName code.c && outputFileName
-```
+    
+    gcc -o outputFileName code.c && outputFileName
 
 ### Section 3: Running and using the software for evaluation
 
